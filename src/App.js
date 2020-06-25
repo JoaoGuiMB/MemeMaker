@@ -61,7 +61,7 @@ function App() {
           Create other Meme
         </Button>
         <Button >
-          <a href={generatedMeme.url} target="_blank">Download Meme</a>
+          <a href={generatedMeme.url} target="_blank" rel="nofollow">Download Meme</a>
         </Button>
         </GeneratedMeme>
       </>
