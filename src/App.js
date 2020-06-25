@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import qs from 'qs'
-import GlobalStyles from '../../styles/GlobalStyles'
-import  logo  from '../../images/logo.svg'
-import { Wrapper, Card, Templates,  Form, Button, GeneratedMeme } from '../../styles/stlyes'
+import GlobalStyles from '../src/styles/GlobalStyles'
+import  logo  from '../src/images/logo.svg'
+import { Wrapper, Card, Templates,  Form, Button, GeneratedMeme } from '../src/styles/stlyes'
 function App() {
   const [templates, setTemplates] = useState([]);
   const [selectedTemplate, setSelectedTemplate] = useState(null);
